@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="apple-mobile-web-app-capable" content="no" />
+  <meta name="format-detection" content="telephone=no">
+  <title>支付凭证</title>
+  <script src="static/scripts/cssrem.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <div class="wrapper">
+      <dl class="proof-form mt20 bgwh pl20 ui-1px ge">
+        <dt class="proof-form f30 g6 pt20 pb20">打款金额：</dt>
+        <dd class="proof-form__money pt20 pb20 cell rel">
+          <div class="cell__hd rmb g3">¥</div>
+          <div class="cell__bd pl20 pr20"><input class="input__style f40 g3" type="tel" data-max="23320" data-decimal="4" placeholder="" autofocus></div>
+        </dd>
+        <dd class="proof-form__tips f24 g9">(待付金额：¥23320，请认真核对后，输入本次打款金额）</dd>
+      </dl>
+      <div class="cell mt20 pt20 pb20 ui-1px ge bgwh">
+        <div class="cell__hd f30 g6 rel"><label for="bankWater">银行流水:</label></div>
+        <div class="cell__bd pl20 pr20 ml20 rel"><input class="input__style f30 g3" id="bankWater" type="tel" data-digit="9" placeholder="输入银行流水号码"></div>
+      </div>
+      <div class="bgwh pt20 pb20 mt20 ui-1px ge pl20">
+        <p><span class="g6 f30">上传凭证:</span><span class="f20 dib vm g9 pl20">(仅能上传一张图片)</span> </p>
+        <div class="update-photo"><input id="updatePhoto" type="file" accept="image/gif,image/jpeg,image/jpg,image/png">
+          <div class="photoShow"><img alt=""><label class="update-photo__btn dib" for="updatePhoto"></label></div>
+        </div>
+      </div>
+      <div class="mt20 mb20 pt20 pb20"></div>
+      <div class="mt20 mb20 pt20 pb20"></div>
+      <div class="m20"> <a class="btn btn__primary tc white f34 db ml10 mr10" href="javascript:;">确认提交</a> </div>
+    </div>
+  </div>
+</body>
+
+</html>

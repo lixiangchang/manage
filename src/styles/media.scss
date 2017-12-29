@@ -1,0 +1,19 @@
+@mixin ui-1px($color, $direction:0px,$x:left,$y:top) {
+  position: relative;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 1px;
+    height: 200%;
+    border-width: $direction;
+    border-style: solid;
+    border-color: $color;
+    content: ' ';
+    transform: scale(0.5);
+    transform-origin: $x $y;
+  }
+}
+
+$red: #ea5455;

@@ -1,0 +1,24 @@
+@for $i from 1 through 5 {
+  .icon-status-0#{$i} {
+    background: url('../images/icon-status-0#{$i}.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+.icon-01 {
+  background: url('../images/icon-01.png') no-repeat;
+  background-size: cover;
+}
+.icon-02 {
+  background: url('../images/icon-02.png') no-repeat;
+  background-size: cover;
+}
+.icon-03 {
+  background: url('../images/icon-03.png') no-repeat;
+  background-size: cover;
+}
+
+.icon-05 {
+  background: url('../images/icon-05.png') no-repeat;
+  background-size: cover;
+}

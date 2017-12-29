@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="apple-mobile-web-app-capable" content="no" />
+  <meta name="format-detection" content="telephone=no">
+  <title>订单详情</title>
+  <script src="static/scripts/cssrem.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <div class="wrapper">
+      <!-- 订单状态 -->
+      <div class="order-status dib__vm">
+        <!-- 01 - 待发货 -->
+        <!-- 02 - 等待买家付款 -->
+        <!-- 03 - 待收货 -->
+        <!-- 04 - 已完成 -->
+        <!-- 05 - 已取消 --><i class="order-status-icon icon-status-02 dib vm"></i>
+        <div class="dib vm">
+          <p class="white ml20 f32 b">等待买家付款</p>
+          <p class="white ml20 f26 mt10 b">交易将在6小时后关闭</p>
+        </div>
+      </div>
+      <!-- 收货地址 -->
+      <dl class="shipping-address bgwh">
+        <dt class="f26 b"><span>大熊安妮</span><span>189****8866</span></dt>
+        <dd class="f24">收货地址：北京市东城区东华门西拉胡同儿墨鱼公寓楼 2号楼2209室</dd>
+      </dl>
+      <!-- 订单商品 -->
+      <div class="order-list mt20 bgwh">
+        <div class="cell pt20 pb20 ui-1px-t">
+          <div class="cell__hd photo100 photo__goods"> <img src="../images/interim-goods.png" alt=""> </div>
+          <div class="cell__bd f28 pl20 g3">
+            <p class="f26">越南特级很厉害很甜纯天然无污染</p>
+            <div class="clearfix pt10"> <span class="text-primary b l"><em class="f26">￥</em><em class="f30">17.8</em><em class="f26">万/吨</em></span>              <span class="r f26 g9">×1</span> </div>
+          </div>
+          <div class="cell__fd b f26 text-danger"></div>
+        </div>
+        <div class="cell pt20 pb20 ui-1px-t">
+          <div class="cell__hd photo100 photo__goods"> <img src="../images/interim-goods.png" alt=""> </div>
+          <div class="cell__bd f28 pl20 g3">
+            <p class="f26">越南特级很厉害很甜纯天然无污染</p>
+            <div class="clearfix pt10"> <span class="text-primary b l"><em class="f26">￥</em><em class="f30">17.8</em><em class="f26">万/吨</em></span>              <span class="r f26 g9">×1</span> </div>
+          </div>
+          <div class="cell__fd b f26 text-danger"></div>
+        </div>
+      </div>
+      <!-- 时间轴 -->
+      <div class="timeline f26 mt20">
+        <p>订单编号：2017110967863</p>
+        <p>下单时间：2017-07-16 12:08:45</p>
+        <p>预计发货时间：2017-07-16 12:08:45</p>
+      </div>
+      <!-- 支付信息 -->
+      <dl class="pay-info f26 mt20">
+        <dd class="pay-info-item"> <span class="title">支付类型：</span> <span class="valuer">全款</span> </dd>
+        <dd class="pay-info-item"> <span class="title">支付类型：</span> <span class="valuer">全款</span> </dd>
+        <dd class="pay-info-item"> <span class="title">户名：</span> <span class="valuer">北京亿通贸科技有限公司</span> </dd>
+        <dd class="pay-info-item"> <span class="title">账号：</span> <span class="valuer">2200 7878 6757 976</span> </dd>
+        <dd class="pay-info-item"> <span class="title">开户行：</span> <span class="valuer">中国农业银行三元桥支行</span> </dd>
+        <dd class="pay-info-item"> <span class="title">联行号：</span> <span class="valuer">8989 9686 9796<em class="g9">（非必填）</em></span> </dd>
+        <dd class="pay-info-item">
+        <span class="title">汇付识别码：</span> <span class="valuer text-danger">WG8768865</span> </dd>
+      </dl>
+      <!-- 配送方式 -->
+      <div class="haul f26 mt20">
+        <p>配送方式：冷链物流</p>
+      </div>
+      <!-- 发票 -->
+      <div class="invoice f26 mt20">
+        <p>发票抬头类型：公司</p>
+        <p>发票抬头名称：北京亿通贸科技有限公司</p>
+      </div>
+      <!-- 最终价格 -->
+      <div class="price f26 mt20">
+        <div class="clearfix"> <span class="l">商品总额：</span><span class="r">￥230000.00</span> </div>
+        <div class="clearfix"> <span class="l">&emsp;已付款：</span><span class="r text-primary">￥230000.00</span> </div>
+      </div>
+      <div class="cell pt20 pb20 mt20 bgwh ge ui-1px-t ui-1px-b">
+        <div class="cell__bd f28 g3 tr"> <a class="btn dib f24 g3 mr20" href="javascript:;">支付凭证</a> <a class="btn dib f24 g3 mr20" href="javascript:;">确认付款</a>          </div>
+      </div>
+      <div class="pt20"></div>
+    </div>
+  </div>
+</body>
+
+</html>
